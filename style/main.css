@@ -1,0 +1,45 @@
+:root{
+    --laranja:#ec5426;
+    --vermelho:#dd0303;
+    --azul:#054F77;
+}
+@font-face {
+    font-family:piece;
+    src: url(/NetPiece/style/font/one-piece-font.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--azul);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 5px;
+    font-family: piece;
+    font-size: 70px;
+    color: rgb(228, 227, 227);
+}
+
+header nav a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+
+}
+
+header nav a:hover{
+    color:white;
+}
