@@ -14,9 +14,13 @@
     box-sizing: border-box;
 }
 
+/*elementos base*/
 body{
     background: var(--azul);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
+    /*fonte de todo conteudo da Body*/
+
 }
 
 header .container{
@@ -37,9 +41,70 @@ header nav a{
     text-decoration: none;
     color: rgb(0, 0, 0);
     margin-right: 20px;
-
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 header nav a:hover{
-    color:white;
+    color:white; /*cor para seleção do menu*/
 }
+
+/*filme principal*/
+.filme-principal{
+    font-size: 16px;
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/NetPiece/img/capa-stamped.jpg');
+    /*linear-gradient adiciona uma pelicula em cima da imagem para facilitar a leitura*/
+    /*rgba(vermelho,verde,azul,camada alfa)*/
+    height: 500px; /*tamanho do container de exibição*/
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.titulo{
+    margin-top: 8%;
+    font-size: 50px;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 10px;
+}
+
+.container{
+    margin-left: 30px;
+    /**/
+}
+
+.filme-principal .container{
+    width: 70%; 
+    /*dimensão de até onde o texto da descrição irá*/
+}
+
+
