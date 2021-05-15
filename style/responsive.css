@@ -1,0 +1,19 @@
+@media screen and (max-width: 600px){ /*condições para minimo tamnaho*/
+    header .container{
+        display: flex;
+        flex-direction: column; /*Organiza oos menos em forma de coluna*/
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 300px; /*almenta o cumprimento do botão*/
+    }
+
+}
+
+@media screen and (min-width:1000px){ /*condições para máximo tamanho*/
+    .descricao{
+        width: 50%; /*trazendo o texto da descrição centralizado a esquerda*/
+    }    
+
+}

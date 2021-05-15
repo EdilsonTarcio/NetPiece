@@ -37,16 +37,16 @@ header .logo{
     color: rgb(228, 227, 227);
 }
 
-header nav a{
+header nav a{ /*Formatação menus*/
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     margin-right: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:Arial, Helvetica, sans-serif; 
     font-weight: bold;
 }
 
 header nav a:hover{
-    color:white; /*cor para seleção do menu*/
+    color:rgb(10, 9, 9); /*cor para seleção do menu*/
 }
 
 /*filme principal*/
@@ -107,4 +107,12 @@ header nav a:hover{
     /*dimensão de até onde o texto da descrição irá*/
 }
 
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
 
+.carrosel-filmes{
+    margin-top: 10px;
+}
