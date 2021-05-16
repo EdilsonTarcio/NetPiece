@@ -1,4 +1,4 @@
-$('.owl-carousel').owlCarousel({
+var owl = $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
@@ -16,4 +16,13 @@ $('.owl-carousel').owlCarousel({
             items:7
         }
     }
-})
+});
+/*Faz com que o carrosel se mova ao rodar o Scroll Mouse*/
+owl.on('mousewheel', '.owl-stage', function (e) {
+    if (e.deltaY>1) {
+        owl.trigger('next.owl');
+    } else {
+        owl.trigger('prev.owl');
+    }
+    e.preventDefault();
+});

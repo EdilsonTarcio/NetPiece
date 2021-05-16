@@ -16,7 +16,8 @@
 
 /*elementos base*/
 body{
-    background: var(--azul);
+    /*background: var(--azul);*/
+    background-image: linear-gradient(rgb(32, 32, 32), rgb(39, 39, 128));
     font-family: 'Times New Roman', Times, serif;
     color: white;
     /*fonte de todo conteudo da Body*/
@@ -46,7 +47,7 @@ header nav a{ /*Formatação menus*/
 }
 
 header nav a:hover{
-    color:rgb(10, 9, 9); /*cor para seleção do menu*/
+    color:rgb(255, 7, 7); /*cor para seleção do menu*/
 }
 
 /*filme principal*/
@@ -115,4 +116,47 @@ header nav a:hover{
 
 .carrosel-filmes{
     margin-top: 10px;
+}
+
+.lista-piece{
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 30px; /*Tamnho fonte*/
+    font-family: piece;
+}
+
+
+div.distaque {
+    height: 100%;
+    background: -webkit-linear-gradient(top, #088fad 20%, #00d5ff 100%);
+}
+
+div.titulo {
+    font-size: 5vw;
+    background-color: blue;
+    text-align: center;
+    padding: 3vw;
+    position: relative;
+}
+
+div.op1 {
+    width: 38%;
+    display: inline-block;
+    background-color: red;
+    font-size: 3vw;
+    text-align: center;
+    padding: 5vw 0vw 5vw 0vw;
+    min-width:40vw;
+}
+
+div.op2 {
+    width: 38%;
+    background-color: green;
+    display: inline-block;
+    margin-right: 0vw;
+    font-size: 3vw;
+    text-align: center;
+    padding: 5vw 0vw 5vw 0vw;
+    min-width:40vw;
+    float:right;
 }
