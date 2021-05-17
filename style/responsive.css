@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px){ /*condições para minimo tamnaho*/
+@media screen and (max-width: 700px){ /*condições para minimo tamnaho*/
     header .container{
         display: flex;
         flex-direction: column; /*Organiza oos menos em forma de coluna*/
@@ -9,6 +9,11 @@
         width: 300px; /*almenta o cumprimento do botão*/
     }
 
+    .op1 .op2{
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
 @media screen and (min-width:1000px){ /*condições para máximo tamanho*/
@@ -17,3 +22,4 @@
     }    
 
 }
+

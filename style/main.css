@@ -69,6 +69,7 @@ header nav a:hover{
 .filme-principal .descricao{
     margin-top: 10px;
     margin-bottom: 40px;
+    font-size: 25px;
 }
 
 .titulo{
@@ -118,45 +119,31 @@ header nav a:hover{
     margin-top: 10px;
 }
 
+.carrosel-filmes2{
+    margin-top: 10px;
+}
+
 .lista-piece{
     margin-top: 10px;
     margin-left: 30px;
-    font-size: 30px; /*Tamnho fonte*/
+    font-size: 50px; /*Tamnho fonte*/
     font-family: piece;
 }
 
 
-div.distaque {
-    height: 100%;
-    background: -webkit-linear-gradient(top, #088fad 20%, #00d5ff 100%);
+.info_meio {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-size: 50px; /*Tamnho fonte*/
+    font-family: piece;
 }
 
-div.titulo {
+.distaque_meio {
+    height: 800px;
     font-size: 5vw;
-    background-color: blue;
-    text-align: center;
+    background-image: url('/NetPiece/img/black_sails.jpg');
+    background-size: cover;
     padding: 3vw;
-    position: relative;
-}
-
-div.op1 {
-    width: 38%;
-    display: inline-block;
-    background-color: red;
-    font-size: 3vw;
-    text-align: center;
-    padding: 5vw 0vw 5vw 0vw;
-    min-width:40vw;
-}
-
-div.op2 {
-    width: 38%;
-    background-color: green;
-    display: inline-block;
-    margin-right: 0vw;
-    font-size: 3vw;
-    text-align: center;
-    padding: 5vw 0vw 5vw 0vw;
-    min-width:40vw;
-    float:right;
+    
 }
