@@ -5,7 +5,7 @@
 }
 @font-face {
     font-family:piece;
-    src: url(/NetPiece/style/font/one-piece-font.ttf);
+    src: url(../style/font/one-piece-font.ttf);
 }
 
 *{
@@ -53,7 +53,7 @@ header nav a:hover{
 /*filme principal*/
 .filme-principal{
     font-size: 16px;
-    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/NetPiece/img/capa-stamped.jpg');
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/capa-stamped.jpg');
     /*linear-gradient adiciona uma pelicula em cima da imagem para facilitar a leitura*/
     /*rgba(vermelho,verde,azul,camada alfa)*/
     height: 500px; /*tamanho do container de exibição*/
@@ -142,7 +142,7 @@ header nav a:hover{
 .distaque_meio {
     height: 800px;
     font-size: 5vw;
-    background-image: url('/NetPiece/img/black_sails.jpg');
+    background-image: url('../img/black_sails.jpg');
     background-size: cover;
     padding: 3vw;
     
